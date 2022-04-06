@@ -1,0 +1,28 @@
+.contenedor{
+    width: 95%;
+    margin: auto;
+ 
+ }
+ table{
+     width: 100%;
+     border-collapse: collapse;
+ }
+ tr, td ,th{
+     border: 1px solid black;
+ }
+ 
+ .fila_par{
+     background-color: rgb(238, 255, 0);
+ }
+ 
+ .fila_impar{
+     background-color: white;
+ }
+ .encabezado_tabla{
+     background-color: #07e437;
+     color: white;
+ }
+ .fila_par:hover, .fila_impar:hover{
+     background-color: #07e437;
+     color: white;
+ }

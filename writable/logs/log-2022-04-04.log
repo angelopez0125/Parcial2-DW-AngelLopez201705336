@@ -1,0 +1,32 @@
+ERROR - 2022-04-04 21:53:48 --> Unknown column 'codigo_vehiculo' in 'order clause'
+CRITICAL - 2022-04-04 21:53:48 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ParcialII_AngelLopez201705336\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ParcialII_AngelLopez201705336\app\Controllers\Vehiculos.php(53): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ParcialII_AngelLopez201705336\system\CodeIgniter.php(832): App\Controllers\Vehiculos->guardarVehiculos()
+#3 C:\xampp\htdocs\ParcialII_AngelLopez201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehiculos))
+#4 C:\xampp\htdocs\ParcialII_AngelLopez201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ParcialII_AngelLopez201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-04 21:54:40 --> Duplicate entry '5' for key 'PRIMARY'
+ERROR - 2022-04-04 21:54:40 --> Unknown column 'codigo_vehiculo' in 'order clause'
+CRITICAL - 2022-04-04 21:54:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ParcialII_AngelLopez201705336\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ParcialII_AngelLopez201705336\app\Controllers\Vehiculos.php(53): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ParcialII_AngelLopez201705336\system\CodeIgniter.php(832): App\Controllers\Vehiculos->guardarVehiculos()
+#3 C:\xampp\htdocs\ParcialII_AngelLopez201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehiculos))
+#4 C:\xampp\htdocs\ParcialII_AngelLopez201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ParcialII_AngelLopez201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-04 21:57:07 --> Duplicate entry '5' for key 'PRIMARY'
+CRITICAL - 2022-04-04 21:58:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ParcialII_AngelLopez201705336\app\Views\vehiculos\form_modificar_vehiculo.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\ParcialII_AngelLopez201705336\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ParcialII_AngelLopez201705336\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ParcialII_AngelLopez201705336\system\Common.php(1089): CodeIgniter\View\View->render('vehiculos/form_...', Array, true)
+#4 C:\xampp\htdocs\ParcialII_AngelLopez201705336\app\Controllers\Vehiculos.php(62): view('vehiculos/form_...', Array)
+#5 C:\xampp\htdocs\ParcialII_AngelLopez201705336\system\CodeIgniter.php(832): App\Controllers\Vehiculos->frmModificarVehiculo('5')
+#6 C:\xampp\htdocs\ParcialII_AngelLopez201705336\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehiculos))
+#7 C:\xampp\htdocs\ParcialII_AngelLopez201705336\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ParcialII_AngelLopez201705336\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-04 22:00:20 --> Duplicate entry '5' for key 'PRIMARY'
